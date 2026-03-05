@@ -7,7 +7,7 @@ import Register from "./pages/Register.jsx";
 import Profile from "./pages/Profile.jsx";
 import Dashboard from './pages/Dashboard.jsx';
 import ReportIssue from './pages/ReportIssue.jsx';
-import CommunityReports from './pages/Communityreport.jsx';
+import CommunityReports from './pages/CommunityReports.jsx';
 import AdminPanel from './pages/AdminPanel.jsx';
 import AdminOverview from './components/AdminOverview';
 import AdminViewComplaints from './components/AdminViewComplaints';
