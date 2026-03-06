@@ -13,7 +13,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
-  const BACKEND = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+  const BACKEND = import.meta.env.VITE_API_URL || 'https://civic-issue-1xzc.onrender.com';
 
   const submit = async e => {
     e.preventDefault();

@@ -187,7 +187,7 @@ export default function ReportIssue() {
     try {
       loadingToastId = toast.loading('Submitting issue...');
 
-      await axios.post('http://localhost:4000/api/issues/create', formData, {
+      await axios.post('https://civic-issue-1xzc.onrender.com/api/issues/create', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${token}`,

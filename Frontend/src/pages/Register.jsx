@@ -7,7 +7,7 @@ import AuroraBackground from '../components/AuroraBackground';
 
 export default function Register() {
   const navigate = useNavigate();
-  const BACKEND = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+  const BACKEND = import.meta.env.VITE_API_URL || 'https://civic-issue-1xzc.onrender.com';
 
   const [role, setRole] = useState('User');
   const [showPass, setShowPass] = useState(false);

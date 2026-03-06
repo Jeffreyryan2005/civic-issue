@@ -20,7 +20,7 @@ import VolunteerLocationModal from '../components/volunteerLocationModal';
 
 dayjs.extend(relativeTime);
 
-const BACKEND = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+const BACKEND = import.meta.env.VITE_API_URL || 'https://civic-issue-1xzc.onrender.com';
 
 function extractIssueTitle(action) {
   if (!action || typeof action !== 'string') return null;

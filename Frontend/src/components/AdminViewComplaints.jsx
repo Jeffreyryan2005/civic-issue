@@ -33,7 +33,7 @@ const isValidMongoId = id => typeof id === 'string' && /^[0-9a-fA-F]{24}$/.test(
 
 const UserNameDisplay = ({ userId, type, status }) => {
   const [name, setName] = useState('Loading...');
-  const BACKEND = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+  const BACKEND = import.meta.env.VITE_API_URL || 'https://civic-issue-1xzc.onrender.com';
   const token = localStorage.getItem('token');
 
   useEffect(() => {
@@ -442,7 +442,7 @@ const AdminViewComplaints = () => {
   const [loading, setLoading] = useState(false);
   const [selectedComplaint, setSelectedComplaint] = useState(null);
 
-  const BACKEND = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+  const BACKEND = import.meta.env.VITE_API_URL || 'https://civic-issue-1xzc.onrender.com';
   const token = localStorage.getItem('token');
   const headers = token ? { Authorization: `Bearer ${token}` } : {};
 

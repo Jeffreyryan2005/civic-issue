@@ -6,7 +6,7 @@ import { FiActivity, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 dayjs.extend(relativeTime);
 
-const BACKEND = import.meta.env.VITE_API_URL || 'http://localhost:4000';
+const BACKEND = import.meta.env.VITE_API_URL || 'https://civic-issue-1xzc.onrender.com';
 const PAGE_SIZE = 8;
 
 const RecentActivities = () => {
